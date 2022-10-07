@@ -43,7 +43,7 @@ function citySearch(cityName) {
     storage.saveCurrentCity(cityName);
 
     const serverUrl = 'http://api.openweathermap.org/data/2.5/weather';
-    const apiKey = '1c0a869d05068871a0bfa0eb86e7c814';
+    const apiKey = '76e9b73341b39cfb3057b2e545328bd4';
     const url = `${serverUrl}?q=${cityName}&appid=${apiKey}&units=metric`;
 
     fetch(url)
